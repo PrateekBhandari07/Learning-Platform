@@ -304,13 +304,15 @@ a{
 
 /* footer */
 footer{
-    padding-block: 80px;
+    padding-block: 60px;
     background-color: #ebf2fa;
+    font-size: 18px;
 }
 .link-column{
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     align-items: flex-start;
-    gap: 20px;
+    gap: 40px;
 }
 .footer-container{
     align-items: flex-start;
